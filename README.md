@@ -71,7 +71,7 @@ npm install
 
 # Create .env file with:
 # PORT=5000
-# MONGODB_URI=mongodb://localhost:27017/synkdocs
+# MONGODB_URI=mongodb://localhost:27017/synkForms
 # JWT_SECRET_KEY=your_secret_key
 
 # Start development server
@@ -115,21 +115,17 @@ npm run preview     # Preview production build
 4. **Share** - Share public form links with users
 5. **Collect Data** - View and export form responses
 6. **Manage** - Edit, duplicate, or delete forms as needed
-
+    
 ## 🔧 Environment Variables
 
 ### Backend (.env)
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/synkdocs
-JWT_SECRET_KEY=your_jwt_secret_key
+MONGODB_URI=mongodb://localhost:27017/synkForms
+JWT_SECRET_KEY=your_secret_key
 ```
 
 ### Frontend
 ```
 VITE_API_URL=http://localhost:5000
 ```
-
----
-
-Built with ❤️ for no-code form creation
