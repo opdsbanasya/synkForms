@@ -1,11 +1,11 @@
-# SynkDocs - No-Code Dynamic Form Builder
+# SynkForms - No-Code Dynamic Form Builder
 
 A web application for creating, customizing, and managing no-code dynamic forms with an intuitive interface.
 
 ## 🔗 Links
 
-- **Live Preview**: [https://synkdocs.netlify.app](https://synkdocs.netlify.app)
-- **GitHub Repository**: [https://github.com/username/synkdocs](https://github.com/username/synkdocs)
+- **Live Preview**: [https://synkforms.com](http://40.81.227.70/)
+- **GitHub Repository**: [https://github.com/opdsbanasya/synkForms.git](https://github.com/opdsbanasya/synkForms.git)
 
 ## 🚀 Tech Stack
 
