@@ -1,0 +1,2 @@
+export const DEFAULT_USER_ICON = "https://cdn3d.iconscout.com/3d/premium/thumb/user-profile-10122808-8192346.png"
+export const BASE_URL = "http://localhost:3000"
