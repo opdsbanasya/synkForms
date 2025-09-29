@@ -11,15 +11,17 @@ const port = process.env.PORT;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.NODE_ENV === 'production' 
+      ? ["http://40.81.227.70", "https://40.81.227.70", "http://localhost:5173"]
+      : "http://localhost:5173",
     credentials: true,
   })
 );
 
 app.use(cookieParser());
 app.use(express.json());
-app.use("/", authRouter);
-app.use("/", formRouter);
+app.use("/api/", authRouter);
+app.use("/api/", formRouter);
 
 connectToDatabase()
   .then(() => {

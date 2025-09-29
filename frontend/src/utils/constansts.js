@@ -1,2 +1,2 @@
 export const DEFAULT_USER_ICON = "https://cdn3d.iconscout.com/3d/premium/thumb/user-profile-10122808-8192346.png"
-export const BASE_URL = location.hostname === "localhost" ? "http://localhost:3000" : "/api";
+export const BASE_URL = location.hostname === "localhost" ? "http://localhost:3000" : "http://40.81.227.70/api";
